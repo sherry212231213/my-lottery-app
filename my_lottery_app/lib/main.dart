@@ -1,6 +1,5 @@
 import 'dart:math';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -53,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         child: Column(
           children: [
-            const SizedBox(height: 200),
+            const SizedBox(height: 150),
             const Center(
               child: Text(
                 "Winning Number is \n \t \t\t\t\t\t\t\t\t\t\t\t5",
@@ -70,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 150,
                     decoration: BoxDecoration(
                         image: const DecorationImage(
-                            image: AssetImage('assets/winner lottery.jpg'),
+                            image: AssetImage('assets/win.png'),
                             fit: BoxFit.cover),
                         color: const Color.fromARGB(255, 241, 237, 0),
                         borderRadius: BorderRadius.circular(140)),
